@@ -1,7 +1,9 @@
 name: test-k8s
 
 dependencies:
-  - http://nonexistentrepo.gi
+  test:
+    repository: http://nonexistentrepo/okteto/test.git
+    wait: true
 
-deploy: 
+deploy:
   - kubectl apply -f k8s.yml
