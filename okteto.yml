@@ -1,4 +1,3 @@
 name: test-k8s
 
-deploy:
-  - kubectl apply -f k8s.yml
+deploy: - kubectl apply -f k8s.yml
