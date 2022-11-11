@@ -1,4 +1,7 @@
 name: test-k8s
 
+dependencies:
+  - http://nonexistentrepo.gi
+
 deploy: 
   - kubectl apply -f k8s.yml
