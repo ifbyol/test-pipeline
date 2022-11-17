@@ -1,4 +1,4 @@
-name: test-k8s
+name: test-pipeline
 
 #build:
 #  context: .
