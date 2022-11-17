@@ -1,7 +1,12 @@
 name: test-k8s
 
-build:
-  context: .
+#build:
+#  context: .
+
+#dependencies:
+#  test:
+#    repository: http://nonexistentrepo/okteto/test.git
+#    wait: true
 
 deploy:
   - echo "hola"
