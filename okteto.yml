@@ -1,7 +1,7 @@
 name: test-k8s
 
-build:
-  context: .
+#build:
+#  context: .
 
 deploy:
   - echo "hola"
