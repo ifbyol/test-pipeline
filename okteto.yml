@@ -8,6 +8,6 @@ dependencies:
     repository: http://nonexistentrepo/okteto/test.git
     wait: true
 
-deploy:
+deploy: ""
   - echo "hola"
   - afasdgfa
