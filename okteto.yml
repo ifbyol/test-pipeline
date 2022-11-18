@@ -1,7 +1,7 @@
 name: test-pipeline
 
-build:
-  context: .
+#build:
+#  context: .
 
 dependencies:
   test:
