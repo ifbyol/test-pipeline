@@ -3,10 +3,10 @@ name: test-pipeline
 #build:
 #  context: .
 
-#dependencies:
-#  test:
-#    repository: http://nonexistentrepo/okteto/test.git
-#    wait: true
+dependencies:
+  test:
+    repository: http://nonexistentrepo/okteto/test.git
+    wait: true
 
 deploy:
   - echo "hola"
