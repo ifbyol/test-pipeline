@@ -3,11 +3,9 @@ name: test-pipeline
 #build:
 #  context: .
 
-dependencies:
-  test:
-    repository: http://nonexistentrepo/okteto/test.git
-    wait: true
-
 deploy:
   - echo "hola"
   - afasdgfa
+
+destroy:
+  - echo "destroying..."
