@@ -10,4 +10,4 @@ dependencies:
 
 deploy:
   - echo "hola"
-  - afasdgfa
+  - sleep 300
