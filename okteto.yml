@@ -1,12 +1,8 @@
 name: test-pipeline
 
-#build:
-#  context: .
-
 deploy:
-  - echo "hola"
-  - afasdgfa
+  - echo "Deploying something..."
 
 destroy:
-  - echo "destroying..."
-  - lkasdfg
+  - echo "Destroying whatever..."
+  - non-existent command
