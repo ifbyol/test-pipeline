@@ -3,11 +3,9 @@ name: test-pipeline
 #build:
 #  context: .
 
-dependencies:
-  test:
-    repository: http://nonexistentrepo/okteto/test.git
-    wait: true
-
 deploy:
-  - echo "hola"
-  - afasdgfa
+  - echo "deploying something...."
+
+destroy:
+  - echo "removing lambda..." && sleep 10s
+  - echo "cleaning up something..." && sleep 10s
