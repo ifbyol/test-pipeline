@@ -1,8 +1,5 @@
 name: test-pipeline
 
-#build:
-#  context: .
-
 deploy:
   - echo "deploying something...."
 
