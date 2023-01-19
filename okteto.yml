@@ -1,8 +1,8 @@
 name: test-pipeline
 
 deploy:
-  - echo "deploying something...."
+  - echo "Deploying something...."
 
 destroy:
-  - echo "removing lambda..." && sleep 5s
-  - echo "cleaning up something..." && sleep 5s
+  - echo "Removing lambda..." && sleep 5s
+  - echo "Cleaning up something..." && sleep 5s
