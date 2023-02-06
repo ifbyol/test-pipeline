@@ -2,7 +2,7 @@ name: test-pipeline
 
 dependencies:
   test:
-    repository: http://github.com/ifbyol/movies
+    repository: http://github.com/ifbyol/movies-rentals
     wait: true
 
 deploy:
