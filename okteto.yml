@@ -14,3 +14,10 @@ deploy:
       command: |
         HELLO_WORLD="hi!"
         echo $HELLO_WORLD
+
+destroy:
+  commands:
+    - name: test variable scripting
+      command: |
+        ANOTHER_VAR="this is another variable"
+        echo $ANOTHER_VAR
