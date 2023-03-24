@@ -3,11 +3,14 @@ name: test-pipeline
 #build:
 #  context: .
 
-dependencies:
-  test:
-    repository: http://nonexistentrepo/okteto/test.git
-    wait: true
+#dependencies:
+#  test:
+#    repository: http://nonexistentrepo/okteto/test.git
+#    wait: true
 
 deploy:
-  - echo "hola"
-  - afasdgfa
+  commands:
+    - name: test variable scripting
+      command: |
+        HELLO_WORLD="hi!"
+        echo $HELLO_WORLD
