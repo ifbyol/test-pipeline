@@ -1,0 +1,13 @@
+name: test-pipeline
+
+deploy:
+  commands:
+    - name: echo something
+      command: echo "something"
+
+destroy:
+  commands:
+    - name: echo
+      command: echo "destroying...."
+    - name: fail
+      command: non-existent-comment
