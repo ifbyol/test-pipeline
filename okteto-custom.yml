@@ -5,13 +5,13 @@ deploy:
     - name: echo something
       command: echo "something"
     - name: echo variable
-      command: echo $EXTERNAL_VARIABLE
+      command: echo "printing external variable: ${EXTERNAL_VARIABLE}"
 
 destroy:
   commands:
     - name: echo
       command: echo "destroying...."
     - name: echo variable
-      command: echo $EXTERNAL_VARIABLE
+      command: echo "printing external variable: ${EXTERNAL_VARIABLE}"
     - name: fail
       command: non-existent-comment
