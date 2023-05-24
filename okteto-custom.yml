@@ -4,6 +4,8 @@ deploy:
   commands:
     - name: echo something
       command: echo "something"
+    - name: echo variable
+      command: echo $EXTERNAL_VARIABLE
 
 destroy:
   commands:
