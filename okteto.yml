@@ -16,6 +16,8 @@ deploy:
         echo $HELLO_WORLD
     - name: check okteto version
       command: okteto version
+    - name: echo path
+      command: echo $PATH
 
 destroy:
   commands:
