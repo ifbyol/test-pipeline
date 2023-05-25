@@ -25,5 +25,5 @@ destroy:
       command: |
         ANOTHER_VAR="this is another variable"
         echo $ANOTHER_VAR
-    - name: fail
-      command: non-existent-comment
+    #- name: fail
+    #  command: non-existent-comment
