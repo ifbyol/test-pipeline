@@ -19,7 +19,9 @@ deploy:
     - name: echo path
       command: echo $PATH
     - name: Get Kubernetes endpoint
-      command: curl https://kubernetes.test-nacho-eks.dev.okteto.net -v > /dev/null
+      command: curl -k https://kubernetes.test-nacho-eks.dev.okteto.net -v > /dev/null
+    - name: Get pods
+      command: kubectl get pods
 
 destroy:
   commands:
