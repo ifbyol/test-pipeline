@@ -21,7 +21,7 @@ deploy:
     - name: Get Kubernetes endpoint
       command: curl -k https://kubernetes.test-nacho-eks.dev.okteto.net -v > /dev/null
     - name: Get pods
-      command: kubectl get pods -v9
+      command: kubectl get pods
 
 destroy:
   commands:
