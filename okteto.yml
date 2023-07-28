@@ -18,10 +18,10 @@ deploy:
       command: okteto version
     - name: echo path
       command: echo $PATH
-    - name: Get Kubernetes endpoint
-      command: curl -k https://kubernetes.test-nacho-eks.dev.okteto.net -v > /dev/null
     - name: Get pods
       command: kubectl get pods
+    - name: Open ssh version
+      command: ssh -V
 
 destroy:
   commands:
@@ -29,5 +29,6 @@ destroy:
       command: |
         ANOTHER_VAR="this is another variable"
         echo $ANOTHER_VAR
+    - 
     #- name: fail
     #  command: non-existent-comment
