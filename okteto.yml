@@ -22,6 +22,8 @@ deploy:
       command: kubectl get pods
     - name: Open ssh version
       command: ssh -V
+    - name: cat ssh config
+      command: cat ~/.ssh/config
 
 destroy:
   commands:
